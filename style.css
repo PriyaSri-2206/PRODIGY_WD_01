@@ -1,0 +1,202 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* ================= NAVBAR ================= */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 18px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  transition: 0.4s;
+  z-index: 1000;
+}
+
+.scrolled {
+  background: rgba(0, 0, 0, 0.95);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #551233;
+  text-shadow: 0 0 15px #ff8dc4;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #d588ad;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 95px;                 /* VERY VERY BIG */
+  font-weight: 900;
+  color: #d588ad;
+  letter-spacing: 3px;
+  text-shadow:
+    0 0 15px #ff2f92S,
+    0 0 40px #ff2f92,
+    0 0 80px #ff2f92;
+}
+
+.subtitle {
+  margin-top: 15px;
+  font-size: 28px;
+  letter-spacing: 4px;
+  color: #ff77b7;
+}
+
+.hero-text {
+  margin-top: 25px;
+  max-width: 900px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+/* HERO ICONS */
+.hero-icons {
+  margin: 35px 0;
+}
+
+.hero-icons i {
+  font-size: 55px;
+  margin: 0 25px;
+  color: #ff2f92;
+  text-shadow: 0 0 20px #ff2f92;
+}
+
+/* HERO BUTTON */
+.hero-btn {
+  margin-top: 20px;
+  padding: 14px 40px;
+  font-size: 20px;
+  background: #ff2f92;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #ff77b7;
+}
+
+/* ================= SECTIONS ================= */
+.section {
+  padding: 120px 80px;
+  text-align: center;
+}
+
+.dark {
+  background-color: #111;
+}
+
+.section h2 {
+  font-size: 42px;
+  color: #ff2f92;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px #ff2f92;
+}
+
+/* BIG PARAGRAPH TEXT */
+.big-text {
+  font-size: 21px;
+  line-height: 1.9;
+  max-width: 950px;
+  margin: 25px auto;
+  color: #ddd;
+}
+
+/* ================= ABOUT IMAGE ================= */
+.about-img {
+  margin-top: 40px;
+  width: 220px;
+}
+
+/* ================= SERVICES CARDS ================= */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card {
+  width: 320px;
+  padding: 35px;
+  background: #000;
+  border: 2px solid #ff2f92;
+  border-radius: 18px;
+  transition: 0.4s;
+}
+
+.card i {
+  font-size: 50px;
+  color: #ff2f92;
+  margin-bottom: 18px;
+}
+
+.card h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #ff77b7;
+}
+
+.card-text {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #ccc;
+}
+
+.card:hover {
+  transform: translateY(-18px);
+  box-shadow: 0 0 35px #ff2f92;
+}
+
+/* ================= CONTACT ================= */
+.section p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #ddd;
+}
